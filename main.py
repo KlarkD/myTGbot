@@ -2,7 +2,6 @@ import os
 
 import telegram
 
-# enviroment variable: TOKEN=389264369:AAH5hHTN7sr7cQIf5GljTD4jtx4CjB5Q6Mg
 def hg_function(request):
     bot = telegram.Bot(token=os.environ["TOKEN"])
     if request.method == "POST":
